@@ -1,0 +1,34 @@
+{% load static from staticfiles %}
+<style type="text/css">
+	div {
+    width: 100%;
+    height: 100%;
+    max-width: 1034px;
+    max-height: 543px;
+    margin: 0 auto;
+}
+div div {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 57.5%;
+    height: 0;
+}
+div iframe {
+    box-sizing: border-box;
+    background: url(http://i.stack.imgur.com/zZNgk.png) center center no-repeat;
+    background-size: contain;
+    padding: 11.9% 15.5% 14.8%;
+    position: absolute;
+    top: -35;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+    <title>SBK-Flow-Chart</title>
+<div>
+    <div>
+    	
+        <iframe  height="-50px" src="{% static 'images/tsp.pdf' %}" frameborder="0" allowfullscreen></iframe>
+   </div>
+</div>
